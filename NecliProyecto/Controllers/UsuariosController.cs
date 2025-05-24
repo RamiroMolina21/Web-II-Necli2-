@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NecliGestion.Entidades.Entidades;
 using NecliGestion.Logica.Dtos;
@@ -17,6 +18,8 @@ public class UsuarioController : ControllerBase
         _usuarioService = usuarioService;
     }
 
+
+    [Authorize]
     [HttpGet("{identificacion}")]
     public ActionResult<ObtenerUsuarioDto> ObtenerUsuario(string identificacion)
     {
@@ -30,6 +33,8 @@ public class UsuarioController : ControllerBase
         }
     }
 
+
+    [Authorize]
     [HttpPut("{identificacion}")]
     public IActionResult ActualizarUsuario(string identificacion, [FromBody] ActualizarUsuarioDto dto)
     {
@@ -44,6 +49,8 @@ public class UsuarioController : ControllerBase
         }
     }
 
+
+    [Authorize]
     [HttpGet]
     public ActionResult<List<ObtenerUsuarioDto>> ObtenerUsuarios()
     {

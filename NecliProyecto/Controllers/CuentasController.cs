@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NecliGestion.Entidades.Entidades;
 using NecliGestion.Logica.Dtos;
@@ -17,6 +18,7 @@ public class CuentaController : ControllerBase
         _cuentaService = cuentaService;
     }
 
+    [Authorize]
     [HttpPost]
     public ActionResult<CrearCuentaDto> CrearCuenta([FromBody] CrearCuentaDto dto)
     {
@@ -31,6 +33,7 @@ public class CuentaController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpGet("{telefono}")]
     public ActionResult<ObtenerCuentaDto> ObtenerCuenta(string telefono)
     {
@@ -44,6 +47,8 @@ public class CuentaController : ControllerBase
         }
     }
 
+
+    [Authorize]
     [HttpDelete("{telefono}")]
     public IActionResult EliminarCuenta(string telefono)
     {
@@ -58,6 +63,8 @@ public class CuentaController : ControllerBase
         }
     }
 
+
+    [Authorize]
     [HttpGet]
     public ActionResult<List<ObtenerCuentaDto>> ObtenerCuentas()
     {

@@ -3,44 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\transaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\transaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\scriptbd\\web ii scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\scriptbd\\web ii scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\obtenerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\obtenerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\logintokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\logintokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\cuentasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\cuentasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\interfaces\\itransaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\interfaces\\itransaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\services\\transaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\services\\transaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\dbcontexts\\neclidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\dbcontexts\\neclidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.entidades\\entidades\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|solutionrelative:necligestion.entidades\\entidades\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.entidades\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|solutionrelative:necligestion.entidades\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.entidades\\entidades\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|solutionrelative:necligestion.entidades\\entidades\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\obtenercuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\obtenercuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\obtenerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\obtenerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\interfaces\\itransaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\interfaces\\itransaccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\obtenertransacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,32 +107,12 @@
       "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\cuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.entidades\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|solutionrelative:necligestion.entidades\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.entidades\\entidades\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A674B229-3E64-4AA5-ACC3-B2AC9D34A8B3}|NecliGestion.Entidades\\NecliGestion.Entidades.csproj|solutionrelative:necligestion.entidades\\entidades\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\obtenercuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\obtenercuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.logica\\dtos\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{647BB81B-21EB-4B63-9CBC-43E0646077EE}|NecliGestion.Logica\\NecliGestion.Logica.csproj|solutionrelative:necligestion.logica\\dtos\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\dbcontexts\\neclidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\dbcontexts\\neclidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\transaccionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\interfaces\\icuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necliproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6E265B5C-8956-4F2D-A5F7-7C321E98F79F}|NecliProyecto\\NecliProyecto.csproj|solutionrelative:necliproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -117,6 +137,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\necligestion.persistencia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\necligestion.persistencia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|c:\\users\\ramiro\\desktop\\proyecto web ii\\necli\\necligestion.persistencia\\scriptbd\\web ii scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{644D7BE1-E7B0-4C9A-AC9B-BB185F850FB1}|NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj|solutionrelative:necligestion.persistencia\\scriptbd\\web ii scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,84 +150,244 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransaccionesService.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TransaccionesService.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\TransaccionesService.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TransaccionesService.cs",
-              "RelativeToolTip": "NecliGestion.Logica\\Services\\TransaccionesService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwD4AAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:22:30.428Z",
+              "Title": "Web II Scripts.sql ",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\ScriptBD\\Web II Scripts.sql",
+              "RelativeDocumentMoniker": "NecliGestion.Persistencia\\ScriptBD\\Web II Scripts.sql",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\ScriptBD\\Web II Scripts.sql",
+              "RelativeToolTip": "NecliGestion.Persistencia\\ScriptBD\\Web II Scripts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-24T23:03:57.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\CuentasController.cs",
-              "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\CuentasController.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\CuentasController.cs",
-              "RelativeToolTip": "NecliProyecto\\Controllers\\CuentasController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowD0AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Program.cs",
+              "RelativeDocumentMoniker": "NecliProyecto\\Program.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Program.cs",
+              "RelativeToolTip": "NecliProyecto\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:44:47.659Z",
+              "WhenOpened": "2025-05-16T02:05:07.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NecliProyecto\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:55:39.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CuentasService.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\CuentasService.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\CuentasService.cs",
               "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\CuentasService.cs",
               "RelativeToolTip": "NecliGestion.Logica\\Services\\CuentasService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwG8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:11:13.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T03:11:13.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\CuentasController.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "NecliProyecto\\Controllers\\CuentasController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T04:44:47.659Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ITransaccionesService.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
-              "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
+              "Title": "LoginTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\LoginTokenDto.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\LoginTokenDto.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\LoginTokenDto.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Dtos\\LoginTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:22:47.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T20:48:29.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TransaccionesController.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\TransaccionesController.cs",
               "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\TransaccionesController.cs",
               "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\TransaccionesController.cs",
               "RelativeToolTip": "NecliProyecto\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:45:04.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T04:45:04.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "NecliProyecto\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T04:45:24.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\appsettings.json",
+              "RelativeDocumentMoniker": "NecliProyecto\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\appsettings.json",
+              "RelativeToolTip": "NecliProyecto\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T02:05:11.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Transaccion.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Transaccion.cs",
+              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:28:45.991Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TokenService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:39:36.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:20:15.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Cuenta.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Cuenta.cs",
+              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Cuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:28:15.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NecliDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
+              "RelativeToolTip": "NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:06:58.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:16:31.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:39:49.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ObtenerCuentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:58:11.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransaccionesService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TransaccionesService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\TransaccionesService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\TransaccionesService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Services\\TransaccionesService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowD4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:22:30.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:28:56.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ObtenerUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerUsuarioDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\ObtenerUsuarioDto.cs",
@@ -211,64 +395,23 @@
               "RelativeToolTip": "NecliGestion.Logica\\Dtos\\ObtenerUsuarioDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:22:07.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T04:22:07.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ITransaccionesService.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
+              "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
+              "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\ITransaccionesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:20:15.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T03:22:47.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Logica\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "NecliGestion.Logica\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:16:31.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "NecliProyecto\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "NecliProyecto\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:45:24.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Transaccion.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Transaccion.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Transaccion.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Transaccion.cs",
-              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Transaccion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T01:28:45.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "ObtenerTransaccionDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerTransaccionDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\ObtenerTransaccionDto.cs",
@@ -276,12 +419,11 @@
               "RelativeToolTip": "NecliGestion.Logica\\Dtos\\ObtenerTransaccionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:59:10.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T03:59:10.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "TransaccionResultadoDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\TransaccionResultadoDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\TransaccionResultadoDto.cs",
@@ -289,12 +431,11 @@
               "RelativeToolTip": "NecliGestion.Logica\\Dtos\\TransaccionResultadoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:02:43.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T04:02:43.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "TransaccionDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\TransaccionDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\TransaccionDto.cs",
@@ -302,12 +443,11 @@
               "RelativeToolTip": "NecliGestion.Logica\\Dtos\\TransaccionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:01:44.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T04:01:44.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "ActualizarUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ActualizarUsuarioDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\ActualizarUsuarioDto.cs",
@@ -319,46 +459,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "CuentaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\CuentaRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\CuentaRepository.cs",
               "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\CuentaRepository.cs",
               "RelativeToolTip": "NecliGestion.Persistencia\\CuentaRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T02:46:56.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T02:46:56.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T01:28:56.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ObtenerCuentaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
-              "RelativeToolTip": "NecliGestion.Logica\\Dtos\\ObtenerCuentaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:58:11.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "ICuentasService.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Interfaces\\ICuentasService.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Interfaces\\ICuentasService.cs",
@@ -366,61 +479,23 @@
               "RelativeToolTip": "NecliGestion.Logica\\Interfaces\\ICuentasService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:08:07.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T03:08:07.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Cuenta.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Entidades\\Entidades\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Entidades\\Entidades\\Cuenta.cs",
-              "RelativeToolTip": "NecliGestion.Entidades\\Entidades\\Cuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T01:28:15.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\UsuarioRepository.cs",
               "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\UsuarioRepository.cs",
               "RelativeToolTip": "NecliGestion.Persistencia\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T02:47:41.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NecliDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
-              "RelativeDocumentMoniker": "NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
-              "RelativeToolTip": "NecliGestion.Persistencia\\DbContexts\\NecliDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwCsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T02:06:58.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Program.cs",
-              "RelativeDocumentMoniker": "NecliProyecto\\Program.cs",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\Program.cs",
-              "RelativeToolTip": "NecliProyecto\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T02:05:07.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "TransaccionesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\TransaccionesRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\TransaccionesRepository.cs",
@@ -432,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "ICuentaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\Interfaces\\ICuentaRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\Interfaces\\ICuentaRepository.cs",
@@ -444,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "CrearCuentaDto.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Logica\\Dtos\\CrearCuentaDto.cs",
               "RelativeDocumentMoniker": "NecliGestion.Logica\\Dtos\\CrearCuentaDto.cs",
@@ -456,19 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\appsettings.json",
-              "RelativeDocumentMoniker": "NecliProyecto\\appsettings.json",
-              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliProyecto\\appsettings.json",
-              "RelativeToolTip": "NecliProyecto\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T02:05:11.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\Interfaces\\IUsuarioRepository.cs",
@@ -480,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "ITransaccionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\Interfaces\\ITransaccionRepository.cs",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\Interfaces\\ITransaccionRepository.cs",
@@ -492,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "NecliGestion.Persistencia.csproj",
               "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\Proyecto Web II\\Necli\\NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj",
               "RelativeDocumentMoniker": "NecliGestion.Persistencia\\NecliGestion.Persistencia.csproj",

@@ -13,4 +13,6 @@ public interface IUsuarioService
     ObtenerUsuarioDto ObtenerUsuario(string identificacion);
     void ActualizarUsuario(string identificacion, ActualizarUsuarioDto dto);
     List<ObtenerUsuarioDto> ObtenerUsuarios();
+    Usuario Autenticar(string identificacion, string contrasena);
+
 }

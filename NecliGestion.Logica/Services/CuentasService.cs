@@ -111,7 +111,7 @@ public class CuentaService : ICuentaService
     }
     public List<ObtenerCuentaDto> ObtenerCuentas()
     {
-        var cuentas = _cuentaRepo.GetAll(); // Debe incluir Usuario en la consulta
+        var cuentas = _cuentaRepo.GetAll(); 
 
         return cuentas.Select(c => new ObtenerCuentaDto(
             Telefono: c.Telefono,

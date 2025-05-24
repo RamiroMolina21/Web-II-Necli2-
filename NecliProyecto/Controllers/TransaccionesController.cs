@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NecliGestion.Entidades.Entidades;
 using NecliGestion.Logica.Dtos;
@@ -17,6 +18,7 @@ public class TransaccionController : ControllerBase
         _transaccionService = transaccionService;
     }
 
+    [Authorize]
     [HttpPost]
     public ActionResult<TransaccionResultadoDto> RealizarTransaccion([FromBody] TransaccionDto dto)
     {
@@ -31,6 +33,8 @@ public class TransaccionController : ControllerBase
         }
     }
 
+
+    [Authorize]
     [HttpGet("{telefono}")]
     public ActionResult<List<ObtenerTransaccionDto>> ConsultarTransacciones(string telefono,[FromQuery] DateTime? desde,[FromQuery] DateTime? hasta)
     {

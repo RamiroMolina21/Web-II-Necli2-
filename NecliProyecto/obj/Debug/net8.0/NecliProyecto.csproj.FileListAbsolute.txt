@@ -178,3 +178,4 @@ C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\Nec
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\NecliProyecto.genruntimeconfig.cache
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\ref\NecliProyecto.dll
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\NecliProyecto.sourcelink.json
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

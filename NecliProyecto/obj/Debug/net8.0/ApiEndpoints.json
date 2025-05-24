@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "NecliProyecto.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "NecliGestion.Logica.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NecliProyecto.Controllers.CuentaController",
     "Method": "CrearCuenta",
     "RelativePath": "api/Cuenta",

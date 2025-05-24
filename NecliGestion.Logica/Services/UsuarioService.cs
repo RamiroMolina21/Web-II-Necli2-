@@ -83,5 +83,16 @@ public class UsuarioService : IUsuarioService
         )).ToList();
     }
 
+    public Usuario Autenticar(string identificacion, string contrasena)
+    {
+        var usuario = _usuarioRepo.GetByIdentificacion(identificacion);
+
+        if (usuario == null || !BCrypt.Net.BCrypt.Verify(contrasena, usuario.Contrasena))
+            return null;
+
+        return usuario;
+    }
+
+
 
 }
