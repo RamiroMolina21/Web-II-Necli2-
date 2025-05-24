@@ -12,8 +12,8 @@ public interface ICuentaService
 {
     Cuenta CrearCuenta(CrearCuentaDto dto);
 
-    Cuenta ObtenerCuenta(string telefono);
+    ObtenerCuentaDto ObtenerCuenta(string telefono);
     void EliminarCuenta(string telefono);
 
-    List<Cuenta> ObtenerCuentas();
+    List<ObtenerCuentaDto> ObtenerCuentas();
 }

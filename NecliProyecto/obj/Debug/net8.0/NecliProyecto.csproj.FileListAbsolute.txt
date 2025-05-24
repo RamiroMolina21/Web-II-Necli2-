@@ -177,3 +177,4 @@ C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\ref
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\NecliProyecto.pdb
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\NecliProyecto.genruntimeconfig.cache
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\ref\NecliProyecto.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliProyecto\obj\Debug\net8.0\NecliProyecto.sourcelink.json

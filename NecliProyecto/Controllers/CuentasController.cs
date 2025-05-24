@@ -18,7 +18,7 @@ public class CuentaController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<Cuenta> CrearCuenta([FromBody] CrearCuentaDto dto)
+    public ActionResult<CrearCuentaDto> CrearCuenta([FromBody] CrearCuentaDto dto)
     {
         try
         {
@@ -32,7 +32,7 @@ public class CuentaController : ControllerBase
     }
 
     [HttpGet("{telefono}")]
-    public ActionResult<Cuenta> ObtenerCuenta(string telefono)
+    public ActionResult<ObtenerCuentaDto> ObtenerCuenta(string telefono)
     {
         try
         {
@@ -59,7 +59,7 @@ public class CuentaController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<List<Cuenta>> ObtenerCuentas()
+    public ActionResult<List<ObtenerCuentaDto>> ObtenerCuentas()
     {
         return Ok(_cuentaService.ObtenerCuentas());
     }

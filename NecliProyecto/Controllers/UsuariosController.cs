@@ -18,7 +18,7 @@ public class UsuarioController : ControllerBase
     }
 
     [HttpGet("{identificacion}")]
-    public ActionResult<Usuario> ObtenerUsuario(string identificacion)
+    public ActionResult<ObtenerUsuarioDto> ObtenerUsuario(string identificacion)
     {
         try
         {

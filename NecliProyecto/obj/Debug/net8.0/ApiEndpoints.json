@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "NecliGestion.Entidades.Entidades.Cuenta",
+        "Type": "NecliGestion.Logica.Dtos.CrearCuentaDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,7 +35,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[NecliGestion.Entidades.Entidades.Cuenta, NecliGestion.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[NecliGestion.Logica.Dtos.ObtenerCuentaDto, NecliGestion.Logica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "NecliGestion.Entidades.Entidades.Cuenta",
+        "Type": "NecliGestion.Logica.Dtos.ObtenerCuentaDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -139,7 +139,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[NecliGestion.Entidades.Entidades.Transaccion, NecliGestion.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[NecliGestion.Logica.Dtos.ObtenerTransaccionDto, NecliGestion.Logica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -185,7 +185,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "NecliGestion.Entidades.Entidades.Usuario",
+        "Type": "NecliGestion.Logica.Dtos.ObtenerUsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

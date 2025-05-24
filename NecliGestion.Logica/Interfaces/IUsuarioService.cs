@@ -10,7 +10,7 @@ namespace NecliGestion.Logica.Interfaces;
 
 public interface IUsuarioService
 {
-    Usuario ObtenerUsuario(string identificacion);
+    ObtenerUsuarioDto ObtenerUsuario(string identificacion);
     void ActualizarUsuario(string identificacion, ActualizarUsuarioDto dto);
     List<ObtenerUsuarioDto> ObtenerUsuarios();
 }

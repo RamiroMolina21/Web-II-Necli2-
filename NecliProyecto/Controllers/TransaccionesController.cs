@@ -32,10 +32,7 @@ public class TransaccionController : ControllerBase
     }
 
     [HttpGet("{telefono}")]
-    public ActionResult<List<Transaccion>> ConsultarTransacciones(
-        string telefono,
-        [FromQuery] DateTime? desde,
-        [FromQuery] DateTime? hasta)
+    public ActionResult<List<ObtenerTransaccionDto>> ConsultarTransacciones(string telefono,[FromQuery] DateTime? desde,[FromQuery] DateTime? hasta)
     {
         return Ok(_transaccionService.ConsultarTransacciones(telefono, desde, hasta));
     }

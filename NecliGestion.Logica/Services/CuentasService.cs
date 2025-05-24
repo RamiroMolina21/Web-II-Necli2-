@@ -81,13 +81,22 @@ public class CuentaService : ICuentaService
         return cuenta;
     }
 
-    public Cuenta ObtenerCuenta(string telefono)
+    public ObtenerCuentaDto ObtenerCuenta(string telefono)
     {
         var cuenta = _cuentaRepo.GetByTelefono(telefono);
         if (cuenta == null)
             throw new KeyNotFoundException("Cuenta no encontrada");
-        return cuenta;
+
+        return new ObtenerCuentaDto(
+            Telefono: cuenta.Telefono,
+            Nombres: cuenta.Usuario.Nombres,
+            Apellidos: cuenta.Usuario.Apellidos,
+            Correo: cuenta.Usuario.Correo,
+            Saldo: cuenta.Saldo,
+            FechaCreacion: cuenta.FechaCreacion
+        );
     }
+
 
     public void EliminarCuenta(string telefono)
     {
@@ -100,9 +109,19 @@ public class CuentaService : ICuentaService
 
         _cuentaRepo.Delete(cuenta);
     }
-    public List<Cuenta> ObtenerCuentas()
+    public List<ObtenerCuentaDto> ObtenerCuentas()
     {
-        return _cuentaRepo.GetAll();
+        var cuentas = _cuentaRepo.GetAll(); // Debe incluir Usuario en la consulta
+
+        return cuentas.Select(c => new ObtenerCuentaDto(
+            Telefono: c.Telefono,
+            Nombres: c.Usuario.Nombres,
+            Apellidos: c.Usuario.Apellidos,
+            Correo: c.Usuario.Correo,
+            Saldo: c.Saldo,
+            FechaCreacion: c.FechaCreacion
+        )).ToList();
     }
+
 }
 

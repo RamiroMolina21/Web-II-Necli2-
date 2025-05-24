@@ -35,17 +35,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/CrearCuentaDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/CrearCuentaDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/CrearCuentaDto"
                 }
               }
             }
@@ -64,7 +64,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Cuenta"
+                    "$ref": "#/components/schemas/ObtenerCuentaDto"
                   }
                 }
               },
@@ -72,7 +72,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Cuenta"
+                    "$ref": "#/components/schemas/ObtenerCuentaDto"
                   }
                 }
               },
@@ -80,7 +80,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Cuenta"
+                    "$ref": "#/components/schemas/ObtenerCuentaDto"
                   }
                 }
               }
@@ -110,17 +110,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/ObtenerCuentaDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/ObtenerCuentaDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cuenta"
+                  "$ref": "#/components/schemas/ObtenerCuentaDto"
                 }
               }
             }
@@ -235,7 +235,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Transaccion"
+                    "$ref": "#/components/schemas/ObtenerTransaccionDto"
                   }
                 }
               },
@@ -243,7 +243,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Transaccion"
+                    "$ref": "#/components/schemas/ObtenerTransaccionDto"
                   }
                 }
               },
@@ -251,7 +251,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Transaccion"
+                    "$ref": "#/components/schemas/ObtenerTransaccionDto"
                   }
                 }
               }
@@ -281,17 +281,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/ObtenerUsuarioDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/ObtenerUsuarioDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/ObtenerUsuarioDto"
                 }
               }
             }
@@ -435,25 +435,24 @@
         },
         "additionalProperties": false
       },
-      "Cuenta": {
-        "required": [
-          "nombres",
-          "saldo",
-          "telefono"
-        ],
+      "ObtenerCuentaDto": {
         "type": "object",
         "properties": {
-          "idCuenta": {
-            "type": "integer",
-            "format": "int32"
-          },
           "telefono": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "nombres": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
+          },
+          "apellidos": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
           },
           "saldo": {
             "type": "number",
@@ -462,26 +461,31 @@
           "fechaCreacion": {
             "type": "string",
             "format": "date-time"
-          },
-          "usuarioId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "usuario": {
-            "$ref": "#/components/schemas/Usuario"
-          },
-          "transaccionesEnviadas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Transaccion"
-            },
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerTransaccionDto": {
+        "type": "object",
+        "properties": {
+          "numeroCuentaOrigen": {
+            "type": "string",
             "nullable": true
           },
-          "transaccionesRecibidas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Transaccion"
-            },
+          "numeroCuentaDestino": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaTransaccion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -509,48 +513,6 @@
           "telefono": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Transaccion": {
-        "required": [
-          "monto",
-          "numeroCuentaDestino",
-          "numeroCuentaOrigen",
-          "tipo"
-        ],
-        "type": "object",
-        "properties": {
-          "idTransaccion": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "fechaTransaccion": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "numeroCuentaOrigen": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "numeroCuentaDestino": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "monto": {
-            "type": "number",
-            "format": "double"
-          },
-          "tipo": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "cuentaOrigen": {
-            "$ref": "#/components/schemas/Cuenta"
-          },
-          "cuentaDestino": {
-            "$ref": "#/components/schemas/Cuenta"
           }
         },
         "additionalProperties": false
@@ -599,61 +561,6 @@
           "fechaTransaccion": {
             "type": "string",
             "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Usuario": {
-        "required": [
-          "apellidos",
-          "contrasena",
-          "correo",
-          "fechaNacimiento",
-          "identificacion",
-          "nombres",
-          "telefono",
-          "tipoUsuario"
-        ],
-        "type": "object",
-        "properties": {
-          "idUsuario": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "identificacion": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "telefono": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "tipoUsuario": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "nombres": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "apellidos": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "correo": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "contrasena": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "fechaNacimiento": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "cuenta": {
-            "$ref": "#/components/schemas/Cuenta"
           }
         },
         "additionalProperties": false

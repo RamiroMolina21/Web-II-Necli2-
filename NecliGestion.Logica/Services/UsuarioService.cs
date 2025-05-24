@@ -22,13 +22,21 @@ public class UsuarioService : IUsuarioService
         _cuentaRepo = cuentaRepo;
     }
 
-    public Usuario ObtenerUsuario(string identificacion)
+    public ObtenerUsuarioDto ObtenerUsuario(string identificacion)
     {
         var usuario = _usuarioRepo.GetByIdentificacion(identificacion);
         if (usuario == null)
             throw new KeyNotFoundException("Usuario no encontrado");
-        return usuario;
+
+        return new ObtenerUsuarioDto(
+            Identificacion: usuario.Identificacion,
+            Nombres: usuario.Nombres,
+            Apellidos: usuario.Apellidos,
+            Correo: usuario.Correo,
+            Telefono: usuario.Telefono
+        );
     }
+
 
     public void ActualizarUsuario(string identificacion, ActualizarUsuarioDto dto)
     {

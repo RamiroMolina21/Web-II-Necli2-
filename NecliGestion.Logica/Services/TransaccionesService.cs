@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NecliGestion.Logica.Services;
 
-public class TransaccionService : ITransaccionService
+ public class TransaccionService : ITransaccionService
 {
     private readonly ICuentaRepository _cuentaRepo;
     private readonly ITransaccionRepository _transaccionRepo;
@@ -60,8 +60,17 @@ public class TransaccionService : ITransaccionService
         );
     }
 
-    public List<Transaccion> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta)
+    public List<ObtenerTransaccionDto> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta)
     {
-        return _transaccionRepo.GetByCuentaAndFechas(telefono, desde, hasta);
+        var transacciones = _transaccionRepo.GetByCuentaAndFechas(telefono, desde, hasta);
+
+        return transacciones.Select(t => new ObtenerTransaccionDto(
+            NumeroCuentaOrigen: t.NumeroCuentaOrigen,
+            NumeroCuentaDestino: t.NumeroCuentaDestino,
+            FechaTransaccion: t.FechaTransaccion,
+            Monto: t.Monto,
+            Tipo: t.Tipo
+        )).ToList();
     }
+
 }

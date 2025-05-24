@@ -11,5 +11,5 @@ namespace NecliGestion.Logica.Interfaces;
 public interface ITransaccionService
 {
     TransaccionResultadoDto RealizarTransaccion(TransaccionDto dto);
-    List<Transaccion> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta);
+    List<ObtenerTransaccionDto> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta);
 }
