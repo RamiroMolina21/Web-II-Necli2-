@@ -1,0 +1,17 @@
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.csproj.AssemblyReference.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.AssemblyInfo.cs
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Logica.deps.json
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Logica.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Logica.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Persistencia.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Entidades.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\bin\Debug\net8.0\NecliGestion.Persistencia.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGes.E8A90697.Up2Date
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\refint\NecliGestion.Logica.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\NecliGestion.Logica.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Logica\obj\Debug\net8.0\ref\NecliGestion.Logica.dll

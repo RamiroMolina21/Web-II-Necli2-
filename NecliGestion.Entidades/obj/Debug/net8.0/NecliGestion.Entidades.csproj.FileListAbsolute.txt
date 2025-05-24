@@ -1,0 +1,11 @@
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\bin\Debug\net8.0\NecliGestion.Entidades.deps.json
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\bin\Debug\net8.0\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\bin\Debug\net8.0\NecliGestion.Entidades.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.AssemblyInfo.cs
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\refint\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\ref\NecliGestion.Entidades.dll

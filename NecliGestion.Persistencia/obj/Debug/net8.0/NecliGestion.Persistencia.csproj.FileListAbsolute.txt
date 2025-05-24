@@ -1,0 +1,17 @@
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Persistencia.deps.json
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Persistencia.runtimeconfig.json
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Persistencia.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Persistencia.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\bin\Debug\net8.0\NecliGestion.Entidades.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.AssemblyInfo.cs
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGes.712EA5F0.Up2Date
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\refint\NecliGestion.Persistencia.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.pdb
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\NecliGestion.Persistencia.genruntimeconfig.cache
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Persistencia\obj\Debug\net8.0\ref\NecliGestion.Persistencia.dll
