@@ -32,9 +32,9 @@ public class CuentaService : ICuentaService
         {
             edad--;
         }
-        if (edad < 18)
+        if (edad < 15)
         {
-            throw new InvalidOperationException("El usuario debe ser mayor de 18 años para crear una cuenta.");
+            throw new InvalidOperationException("El usuario debe ser mayor de 15 años para crear una cuenta.");
         }
 
         if (string.IsNullOrWhiteSpace(dto.Nombres) || string.IsNullOrWhiteSpace(dto.Apellidos))

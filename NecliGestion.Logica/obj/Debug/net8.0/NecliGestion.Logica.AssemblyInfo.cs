@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NecliGestion.Logica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f046ee0eb8cd9dab61c9c0e715ecee7da583d7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14ac7130bd0ff6554b327da7427e05adc53c445d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NecliGestion.Logica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NecliGestion.Logica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
