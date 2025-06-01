@@ -10,8 +10,11 @@ namespace NecliGestion.Persistencia.Interfaces;
 public interface ICuentaRepository
 {
     Cuenta GetByTelefono(string telefono);
+    Cuenta GetByUsuarioId(string usuarioId);
     Cuenta Create(Cuenta cuenta);
     void Delete(Cuenta cuenta);
     List<Cuenta> GetAll();
+
+
     void SaveChanges();
 }

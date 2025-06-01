@@ -46,11 +46,22 @@ public class NecliDbContext : Microsoft.EntityFrameworkCore.DbContext {
             .HasPrincipalKey(c => c.Telefono)
             .OnDelete(DeleteBehavior.Cascade);
 
+        // Configuración para cuenta destino (permite NULL para transacciones interbancarias)
         modelBuilder.Entity<Transaccion>()
             .HasOne(t => t.CuentaDestino)
             .WithMany(c => c.TransaccionesRecibidas)
             .HasForeignKey(t => t.NumeroCuentaDestino)
             .HasPrincipalKey(c => c.Telefono)
-            .OnDelete(DeleteBehavior.Cascade);
+            .OnDelete(DeleteBehavior.NoAction)
+            .IsRequired(false);
+
+        // Configuración adicional para Transaccion
+        modelBuilder.Entity<Transaccion>()
+            .Property(t => t.Monto)
+            .HasPrecision(18, 2);
+
+        modelBuilder.Entity<Transaccion>()
+            .Property(t => t.Tipo)
+            .HasMaxLength(100);
     }
 }

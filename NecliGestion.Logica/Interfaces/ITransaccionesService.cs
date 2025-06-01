@@ -10,6 +10,8 @@ namespace NecliGestion.Logica.Interfaces;
 
 public interface ITransaccionService
 {
-    TransaccionResultadoDto RealizarTransaccion(TransaccionDto dto);
+    TransaccionResultadoDto RealizarTransaccion(string usuarioId, TransaccionDto dto);
     List<ObtenerTransaccionDto> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta);
+    Task<bool> ValidarCuentaDestino(string numeroCuenta, string documento, int banco);
+    Task<bool> RealizarTransaccionInterbancaria(string usuarioId, TransaccionInterbancariaDto dto); 
 }

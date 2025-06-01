@@ -18,7 +18,6 @@ public class CuentaController : ControllerBase
         _cuentaService = cuentaService;
     }
 
-    [Authorize]
     [HttpPost]
     public ActionResult<CrearCuentaDto> CrearCuenta([FromBody] CrearCuentaDto dto)
     {

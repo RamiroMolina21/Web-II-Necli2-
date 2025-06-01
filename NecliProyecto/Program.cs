@@ -21,6 +21,8 @@ builder.Services.AddScoped<ITransaccionRepository, TransaccionRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 
+builder.Services.AddHttpClient();
+
 var conexion = builder.Configuration.GetConnectionString("local");
 builder.Services.AddDbContext<NecliDbContext>(option => option.UseSqlServer(conexion));
 
@@ -60,7 +62,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Necli API", Version = "v1" });
 
-    // Configuración para JWT Bearer en Swagger
+    // Configuraciï¿½n para JWT Bearer en Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",

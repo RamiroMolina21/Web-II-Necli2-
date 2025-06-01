@@ -42,6 +42,13 @@ public class CuentaRepository : ICuentaRepository
         return _context.Cuentas.Include(c => c.Usuario).ToList();
     }
 
+    public Cuenta GetByUsuarioId(string usuarioId)
+    {
+        return _context.Cuentas
+            .Include(c => c.Usuario)
+            .FirstOrDefault(c => c.Usuario.Identificacion == usuarioId);
+    }
+
     public void SaveChanges()
     {
         _context.SaveChanges();

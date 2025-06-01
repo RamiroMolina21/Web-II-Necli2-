@@ -179,7 +179,7 @@
         }
       }
     },
-    "/api/Transaccion": {
+    "/api/Transaccion/Nequi y Bancolombia": {
       "post": {
         "tags": [
           "Transaccion"
@@ -287,6 +287,37 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Transaccion/Otros Bancos": {
+      "post": {
+        "tags": [
+          "Transaccion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransaccionInterbancariaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransaccionInterbancariaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransaccionInterbancariaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -565,10 +596,6 @@
       "TransaccionDto": {
         "type": "object",
         "properties": {
-          "cuentaOrigen": {
-            "type": "string",
-            "nullable": true
-          },
           "cuentaDestino": {
             "type": "string",
             "nullable": true
@@ -578,6 +605,32 @@
             "format": "double"
           },
           "tipo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransaccionInterbancariaDto": {
+        "type": "object",
+        "properties": {
+          "numeroCuentaDestino": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "numeroDocumento": {
+            "type": "string",
+            "nullable": true
+          },
+          "bancoDestino": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "moneda": {
             "type": "string",
             "nullable": true
           }

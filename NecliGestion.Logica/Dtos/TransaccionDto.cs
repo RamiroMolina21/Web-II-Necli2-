@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace NecliGestion.Logica.Dtos;
 
 public record TransaccionDto(
-  string CuentaOrigen,
   string CuentaDestino,
   decimal Monto,
   string Tipo
