@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NecliProyecto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d68a2e5144f9bd0258a237e613b4d4dbce3201a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd174e8ddc47d27a6d96cc45731c4186ffbf086a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NecliProyecto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NecliProyecto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

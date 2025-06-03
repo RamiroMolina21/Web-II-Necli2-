@@ -27,7 +27,7 @@ public class UsuarioRepository : IUsuarioRepository
     public Usuario Create(Usuario usuario)
     {
         _context.Usuarios.Add(usuario);
-        SaveChanges();
+        SaveChanges();  
         return usuario;
     }
 
@@ -41,6 +41,12 @@ public class UsuarioRepository : IUsuarioRepository
     public List<Usuario> GetAll()
     {
         return _context.Usuarios.Include(u => u.Cuenta).ToList();
+    }
+
+    public Usuario GetByCorreo(string correo)
+    {
+        return _context.Usuarios.Include(u => u.Cuenta)
+        .FirstOrDefault(u => u.Correo == correo);
     }
 
     public void SaveChanges()

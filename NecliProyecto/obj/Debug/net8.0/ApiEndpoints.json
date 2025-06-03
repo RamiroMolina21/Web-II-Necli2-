@@ -104,6 +104,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NecliProyecto.Controllers.CuentaController",
+    "Method": "VerificarCorreo",
+    "RelativePath": "api/Cuenta/verificarcorreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NecliProyecto.Controllers.TransaccionController",
     "Method": "ConsultarTransacciones",
     "RelativePath": "api/Transaccion/{telefono}",

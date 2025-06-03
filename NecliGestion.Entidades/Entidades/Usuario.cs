@@ -35,6 +35,11 @@ public class Usuario {
 
     [Required]
     public DateTime FechaNacimiento { get; set; }
+    public bool EsCorreoVerificado { get; set; } = false;
+
+    public string? TokenVerificacionCorreo { get; set; }
+
+    public DateTime? FechaExpiracionToken { get; set; }
 
     public Cuenta Cuenta { get; set; }
 }

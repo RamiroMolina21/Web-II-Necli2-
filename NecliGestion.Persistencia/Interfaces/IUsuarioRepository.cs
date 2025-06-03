@@ -13,6 +13,7 @@ public interface IUsuarioRepository
     Usuario Create(Usuario usuario);
     bool Actualizar(Usuario usuario);
     List<Usuario> GetAll();
+    Usuario GetByCorreo(string correo);
     void SaveChanges();
 }
 

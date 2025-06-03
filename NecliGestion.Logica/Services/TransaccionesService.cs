@@ -91,62 +91,63 @@ public class TransaccionService : ITransaccionService
     }
 
     public async Task<bool> RealizarTransaccionInterbancaria(string usuarioId, TransaccionInterbancariaDto dto)
+{
+    try
     {
-        try
+        // Obtener cuenta origen
+        var cuentaOrigen = _cuentaRepo.GetByUsuarioId(usuarioId);
+        if (cuentaOrigen == null)
+            throw new NegocioException("Cuenta origen no encontrada.");
+
+        // Validar que no transfiera a sí mismo
+        if (cuentaOrigen.Telefono == dto.NumeroCuentaDestino.ToString())
+            throw new NegocioException("No puedes transferir a tu propia cuenta.");
+
+        // Cargar límites desde configuración
+        var montoMinimo = _config.GetValue<decimal>("TransactionLimits:MinAmount", 1000);
+        var montoMaximo = _config.GetValue<decimal>("TransactionLimits:MaxAmount", 5000000);
+        var diferidoHoras = _config.GetValue<int>("TransactionLimits:DeferredHours", 2);
+
+        // Validar monto
+        if (dto.Monto < montoMinimo || dto.Monto > montoMaximo)
+            throw new NegocioException($"El monto está fuera de los límites permitidos. Mínimo: {montoMinimo}, Máximo: {montoMaximo}");
+
+        // Validar saldo
+        if (cuentaOrigen.Saldo < dto.Monto)
+            throw new NegocioException("Saldo insuficiente.");
+
+        // Validar documento
+        if (string.IsNullOrWhiteSpace(dto.NumeroDocumento) || dto.NumeroDocumento.Length < 8)
+            throw new NegocioException("Número de documento inválido.");
+
+        // Validar cuenta destino con el banco externo
+        var cuentaValida = await ValidarCuentaDestino(dto.NumeroCuentaDestino.ToString(), dto.NumeroDocumento, dto.BancoDestino);
+        if (!cuentaValida)
+            throw new NegocioException("Cuenta destino inválida o no verificada por el banco destino.");
+
+        // Descontar saldo
+        cuentaOrigen.Saldo -= dto.Monto;
+
+        // Crear transacción diferida
+        var fechaTransaccion = DateTime.Now.AddHours(diferidoHoras);
+        var transaccion = new Transaccion
         {
-            var cuentaOrigen = _cuentaRepo.GetByUsuarioId(usuarioId);
-            if (cuentaOrigen == null)
-                throw new NegocioException("Cuenta origen no encontrada.");
+            NumeroCuentaOrigen = cuentaOrigen.Telefono,
+            NumeroCuentaDestino = $"{dto.BancoDestino}-{dto.NumeroCuentaDestino}",
+            Monto = dto.Monto,
+            FechaTransaccion = fechaTransaccion,
+            Tipo = $"Interbancario {dto.Moneda} B{dto.BancoDestino} {diferidoHoras}h"
+        };
 
-            if (cuentaOrigen.Telefono == dto.NumeroCuentaDestino.ToString())
-                throw new NegocioException("No puedes transferir a tu propia cuenta.");
+        _transaccionRepo.Create(transaccion);
+        _cuentaRepo.SaveChanges();
 
-            var montoMinimo = _config.GetValue<decimal>("TransactionLimits:MinAmount", 1000);
-            var montoMaximo = _config.GetValue<decimal>("TransactionLimits:MaxAmount", 5000000);
-            var diferidoHoras = _config.GetValue<int>("TransactionLimits:DeferredHours", 2);
-
-            if (dto.Monto < montoMinimo || dto.Monto > montoMaximo)
-                throw new NegocioException($"El monto está fuera de los límites permitidos. Mínimo: {montoMinimo}, Máximo: {montoMaximo}");
-
-            if (cuentaOrigen.Saldo < dto.Monto)
-                throw new NegocioException("Saldo insuficiente.");
-
-            if (string.IsNullOrEmpty(dto.NumeroDocumento) || dto.NumeroDocumento.Length < 8)
-                throw new NegocioException("Número de documento inválido.");
-
-            var cuentaValida = await ValidarCuentaDestino(dto.NumeroCuentaDestino.ToString(), dto.NumeroDocumento, dto.BancoDestino);
-            if (!cuentaValida)
-                throw new NegocioException("Cuenta destino inválida o no verificada por el banco destino.");
-
-            cuentaOrigen.Saldo -= dto.Monto;
-            _cuentaRepo.SaveChanges();
-
-            var fechaTransaccion = DateTime.Now.AddHours(diferidoHoras);
-
-            var transaccion = new Transaccion
-            {
-                NumeroCuentaOrigen = cuentaOrigen.Telefono,
-                NumeroCuentaDestino = $"B{dto.BancoDestino}-{dto.NumeroCuentaDestino}",
-                Monto = dto.Monto,
-                FechaTransaccion = fechaTransaccion,
-                Tipo = $"Interbancario {dto.Moneda} B{dto.BancoDestino} {diferidoHoras}h"
-            };
-
-            try
-            {
-                _transaccionRepo.Create(transaccion);
-                return true;
-            }
-            catch (Exception ex)
-            {
-                cuentaOrigen.Saldo += dto.Monto;
-                _cuentaRepo.SaveChanges();
-                throw new NegocioException("Error al registrar la transacción. Se ha revertido el cambio en el saldo.", ex);
-            }
-        }
-        catch (Exception ex)
-        {
-            throw new NegocioException($"Error al realizar la transacción interbancaria: {ex.Message}", ex);
-        }
+        return true;
     }
+    catch (Exception ex)
+    {
+        throw new NegocioException($"Error al realizar la transacción interbancaria: {ex.Message}", ex);
+    }
+}
+
 }

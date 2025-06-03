@@ -120,6 +120,34 @@
         }
       }
     },
+    "/api/Cuenta/verificarcorreo": {
+      "get": {
+        "tags": [
+          "Cuenta"
+        ],
+        "parameters": [
+          {
+            "name": "correo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "token",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cuenta/{telefono}": {
       "get": {
         "tags": [

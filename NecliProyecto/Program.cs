@@ -20,6 +20,7 @@ builder.Services.AddScoped<ICuentaRepository, CuentaRepository>();
 builder.Services.AddScoped<ITransaccionRepository, TransaccionRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ICorreoService, CorreoService>();
 
 builder.Services.AddHttpClient();
 

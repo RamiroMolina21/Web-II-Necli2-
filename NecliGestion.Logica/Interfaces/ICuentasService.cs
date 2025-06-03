@@ -11,7 +11,7 @@ namespace NecliGestion.Logica.Interfaces;
 public interface ICuentaService
 {
     Cuenta CrearCuenta(CrearCuentaDto dto);
-
+    void ConfirmarCorreo(VerificarCorreoDto dto);
     ObtenerCuentaDto ObtenerCuenta(string telefono);
     void EliminarCuenta(string telefono);
 

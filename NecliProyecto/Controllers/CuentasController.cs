@@ -32,6 +32,21 @@ public class CuentaController : ControllerBase
         }
     }
 
+    [HttpGet("verificarcorreo")]
+    public ActionResult VerificarCorreo([FromQuery] string correo, [FromQuery] string token)
+    {
+        try
+        {
+            var dto = new VerificarCorreoDto(correo, token);
+            _cuentaService.ConfirmarCorreo(dto);
+            return Ok("Correo confirmado exitosamente.");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
     [Authorize]
     [HttpGet("{telefono}")]
     public ActionResult<ObtenerCuentaDto> ObtenerCuenta(string telefono)
@@ -54,7 +69,7 @@ public class CuentaController : ControllerBase
         try
         {
             _cuentaService.EliminarCuenta(telefono);
-            return NoContent();
+            return Ok("Se elimino correctamente la cuenta");
         }
         catch (Exception ex)
         {

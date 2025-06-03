@@ -9,3 +9,4 @@ C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\n
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\refint\NecliGestion.Entidades.dll
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.pdb
 C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\ref\NecliGestion.Entidades.dll
+C:\Users\Ramiro\Desktop\Proyecto Web II\Necli\NecliGestion.Entidades\obj\Debug\net8.0\NecliGestion.Entidades.sourcelink.json
