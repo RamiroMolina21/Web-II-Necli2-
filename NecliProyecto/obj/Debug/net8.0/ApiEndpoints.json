@@ -162,6 +162,37 @@
   },
   {
     "ContainingType": "NecliProyecto.Controllers.TransaccionController",
+    "Method": "ConsultarTransaccionesInterbancariasExternas",
+    "RelativePath": "api/Transaccion/Consultar Transacciones interbancarias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroCuenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NecliGestion.Logica.Dtos.TransaccionInterbancariaConsultaDto, NecliGestion.Logica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecliProyecto.Controllers.TransaccionController",
     "Method": "RealizarTransaccion",
     "RelativePath": "api/Transaccion/Nequi y Bancolombia",
     "HttpMethod": "POST",

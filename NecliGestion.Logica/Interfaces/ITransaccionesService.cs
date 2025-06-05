@@ -13,5 +13,6 @@ public interface ITransaccionService
     TransaccionResultadoDto RealizarTransaccion(string usuarioId, TransaccionDto dto);
     List<ObtenerTransaccionDto> ConsultarTransacciones(string telefono, DateTime? desde, DateTime? hasta);
     Task<bool> ValidarCuentaDestino(string numeroCuenta, string documento, int banco);
-    Task<bool> RealizarTransaccionInterbancaria(string usuarioId, TransaccionInterbancariaDto dto); 
+    Task<bool> RealizarTransaccionInterbancaria(string usuarioId, TransaccionInterbancariaDto dto);
+    Task<List<TransaccionInterbancariaConsultaDto>> ConsultarTransaccionesInterbancariasExternas(string numeroCuenta, DateTime fecha);
 }

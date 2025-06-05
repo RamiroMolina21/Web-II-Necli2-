@@ -82,4 +82,21 @@ public class TransaccionController : ControllerBase
             return StatusCode(500, "Ocurrió un error al procesar la transacción.");
         }
     }
+
+    [Authorize]
+    [HttpGet("Consultar Transacciones interbancarias")]
+    public async Task<ActionResult<List<TransaccionInterbancariaConsultaDto>>> ConsultarTransaccionesInterbancariasExternas(
+    [FromQuery] string numeroCuenta,
+    [FromQuery] DateTime fecha)
+    {
+        try
+        {
+            var transacciones = await _transaccionService.ConsultarTransaccionesInterbancariasExternas(numeroCuenta, fecha);
+            return Ok(transacciones);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+    }
 }

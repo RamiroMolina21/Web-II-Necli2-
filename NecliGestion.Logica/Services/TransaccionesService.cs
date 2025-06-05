@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Microsoft.Extensions.Configuration;
 using NecliGestion.Logica.Exceptions;
+using System.Net.Http.Json;
 
 namespace NecliGestion.Logica.Services;
 
@@ -91,7 +92,7 @@ public class TransaccionService : ITransaccionService
     }
 
     public async Task<bool> RealizarTransaccionInterbancaria(string usuarioId, TransaccionInterbancariaDto dto)
-{
+    {
     try
     {
         // Obtener cuenta origen
@@ -148,6 +149,28 @@ public class TransaccionService : ITransaccionService
     {
         throw new NegocioException($"Error al realizar la transacción interbancaria: {ex.Message}", ex);
     }
-}
+    }
+
+    public async Task<List<TransaccionInterbancariaConsultaDto>> ConsultarTransaccionesInterbancariasExternas(string numeroCuenta, DateTime fecha)
+    {
+        try
+        {
+            var apiUrl = _config["InterbankApi:TransactionEndpoint"];
+            var url = $"{apiUrl}?numeroCuenta={numeroCuenta}&fecha={fecha:yyyy-MM-dd}";
+
+            var response = await _httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+
+            var transacciones = await response.Content.ReadFromJsonAsync<List<TransaccionInterbancariaConsultaDto>>();
+            if (transacciones == null)
+                throw new NegocioException("No se pudo obtener la información de la transacción");
+
+            return transacciones;
+        }
+        catch (HttpRequestException ex)
+        {
+            throw new NegocioException($"Error al consultar la transacción interbancaria: {ex.Message}", ex);
+        }
+    }
 
 }
