@@ -542,6 +542,10 @@
           "contrasena": {
             "type": "string",
             "nullable": true
+          },
+          "contrasenaAnterior": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

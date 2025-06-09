@@ -41,7 +41,7 @@ public class UsuarioController : ControllerBase
         try
         {
             _usuarioService.ActualizarUsuario(identificacion, dto);
-            return NoContent();
+            return Ok("La cuenta ha sido actualizada correctamente");
         }
         catch (Exception ex)
         {

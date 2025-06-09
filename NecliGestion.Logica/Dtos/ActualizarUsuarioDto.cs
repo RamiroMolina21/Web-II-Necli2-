@@ -10,6 +10,7 @@ namespace NecliGestion.Logica.Dtos
      string Nombres,
      string Apellidos,
      string Correo,
-     string? Contrasena
+     string? Contrasena,
+     string? ContrasenaAnterior
  );
 }

@@ -15,11 +15,13 @@ public class UsuarioService : IUsuarioService
 {
     private readonly IUsuarioRepository _usuarioRepo;
     private readonly ICuentaRepository _cuentaRepo;
+    private readonly ICorreoService _correoService;
 
-    public UsuarioService(IUsuarioRepository usuarioRepo, ICuentaRepository cuentaRepo)
+    public UsuarioService(IUsuarioRepository usuarioRepo, ICuentaRepository cuentaRepo, ICorreoService correoService)
     {
         _usuarioRepo = usuarioRepo;
         _cuentaRepo = cuentaRepo;
+        _correoService = correoService;
     }
 
     public ObtenerUsuarioDto ObtenerUsuario(string identificacion)
@@ -51,14 +53,35 @@ public class UsuarioService : IUsuarioService
             throw new ArgumentException("Correo inválido");
         }
 
-      
         usuario.Nombres = dto.Nombres;
         usuario.Apellidos = dto.Apellidos;
         usuario.Correo = dto.Correo;
 
         if (!string.IsNullOrWhiteSpace(dto.Contrasena))
         {
+            // Verificar contraseña anterior
+            if (string.IsNullOrWhiteSpace(dto.ContrasenaAnterior))
+                throw new ArgumentException("Se requiere la contraseña anterior para realizar el cambio");
+
+            if (!BCrypt.Net.BCrypt.Verify(dto.ContrasenaAnterior, usuario.Contrasena))
+                throw new ArgumentException("La contraseña anterior es incorrecta");
+
+            // Actualizar contraseña
             usuario.Contrasena = BCrypt.Net.BCrypt.HashPassword(dto.Contrasena);
+
+            // Enviar correo de notificación
+            var contenidoCorreo = $@"
+                <h2>Cambio de Contraseña</h2>
+                <p>Hola {usuario.Nombres},</p>
+                <p>Tu contraseña ha sido actualizada exitosamente.</p>
+                <p>Si no realizaste este cambio, por favor contacta a soporte inmediatamente.</p>
+                <p>Fecha y hora del cambio: {DateTime.Now:dd/MM/yyyy HH:mm:ss}</p>";
+
+            _correoService.EnviarCorreo(
+                usuario.Correo,
+                "Cambio de Contraseña - Necli Gestión",
+                contenidoCorreo
+            );
         }
 
         _usuarioRepo.SaveChanges();
